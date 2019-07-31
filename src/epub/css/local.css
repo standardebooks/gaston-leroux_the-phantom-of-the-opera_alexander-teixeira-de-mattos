@@ -1,10 +1,93 @@
 @charset "utf-8";
 @namespace epub "http://www.idpf.org/2007/ops";
 
+
+footer{
+	margin-top: 1em;
+	text-align: right;
+}
+
+/*
+ * Letters.
+ */
+[epub|type~="z3998:salutation"]{
+	display: block;
+	font-variant: small-caps;
+	margin-bottom: .25em;
+	text-indent: 0;
+}
+[epub|type~="z3998:valediction"]{
+	margin-right: 2em;
+	margin-top: .25em;
+	page-break-inside: avoid;
+	text-align: right;
+}
+span[epub|type~="z3998:signature"]{
+	display:block;
+	font-variant: small-caps;
+}
+
+/*
+ * Songs.
+ */
+[epub|type~="z3998:song"] p{
+	text-align: left;
+	text-indent: 0;
+}
+
+[epub|type~="z3998:song"] p > span{
+	display: block;
+	padding-left: 1em;
+	text-indent: -1em;
+}
+
+[epub|type~="z3998:song"] p > span + br{
+	display: none;
+}
+
+[epub|type~="z3998:song"] p + p{
+	margin-top: 1em;
+}
+
+[epub|type~="z3998:song"] + p{
+	text-indent: 0;
+}
+
+p span.i1{
+	padding-left: 2em;
+	text-indent: -1em;
+}
+
 /*
  * Subtitles.
  */
 span[epub|type~="subtitle"]{
 	display: block;
 	font-weight: normal;
+}
+
+/*
+ * Tables.
+ */
+table{
+	border-collapse: separate;
+	border-spacing: 0 .25em;
+}
+
+table td{
+	vertical-align: top;
+}
+
+
+/* Chapter 5: Interview transcription. */
+#chapter-5 table tr td:first-child{
+	font-weight: bold;
+}
+
+/* Chapter 7: Newspaper headline. */
+.headline{
+	text-indent: 0;
+	text-align: center;
+	font-variant: small-caps;
+	margin: .5em 0;
 }
