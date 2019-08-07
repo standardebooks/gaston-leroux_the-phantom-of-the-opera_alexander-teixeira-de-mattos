@@ -1,13 +1,7 @@
 @charset "utf-8";
 @namespace epub "http://www.idpf.org/2007/ops";
 
-
-footer{
-	margin-top: 1em;
-	text-align: right;
-}
-
-/*
+/*----------
  * Letters.
  */
 [epub|type~="z3998:salutation"]{
@@ -16,18 +10,20 @@ footer{
 	margin-bottom: .25em;
 	text-indent: 0;
 }
+
 [epub|type~="z3998:valediction"]{
 	margin-right: 2em;
 	margin-top: .25em;
 	page-break-inside: avoid;
 	text-align: right;
 }
+
 span[epub|type~="z3998:signature"]{
 	display:block;
 	font-variant: small-caps;
 }
 
-/*
+/*----------
  * Songs.
  */
 [epub|type~="z3998:song"] p{
@@ -58,7 +54,7 @@ p span.i1{
 	text-indent: -1em;
 }
 
-/*
+/*----------
  * Subtitles.
  */
 span[epub|type~="subtitle"]{
@@ -66,7 +62,7 @@ span[epub|type~="subtitle"]{
 	font-weight: normal;
 }
 
-/*
+/*----------
  * Tables.
  */
 table{
@@ -78,6 +74,15 @@ table td{
 	vertical-align: top;
 }
 
+/*----------
+ * Chapter-Specific
+ */
+
+/* Prologue: Signature line. */
+footer{
+	margin-top: 1em;
+	text-align: right;
+}
 
 /* Chapter 5: Interview transcription. */
 #chapter-5 table tr td:first-child{
@@ -85,9 +90,8 @@ table td{
 }
 
 /* Chapter 7: Newspaper headline. */
-.headline{
+blockquote.headline{
 	text-indent: 0;
 	text-align: center;
 	font-variant: small-caps;
-	margin: .5em 0;
 }
