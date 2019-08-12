@@ -33,6 +33,20 @@
 }
 
 /*----------
+ * Quoted blocks.
+ */
+.quotedblock{
+	padding-left: .5em;
+	position: relative;
+}
+
+.quotedblock > p:first-child:before{
+	content: '“';
+	position: absolute;
+	left: 0;
+}
+
+/*----------
  * Songs.
  */
 [epub|type~="z3998:song"] p{
