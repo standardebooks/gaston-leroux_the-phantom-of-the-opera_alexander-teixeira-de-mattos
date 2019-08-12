@@ -92,7 +92,7 @@ footer{
 }
 
 /* Chapter 7: Newspaper headline. */
-blockquote.headline{
+#chapter-7 > blockquote:last-of-type{
 	text-indent: 0;
 	text-align: center;
 	font-variant: small-caps;
