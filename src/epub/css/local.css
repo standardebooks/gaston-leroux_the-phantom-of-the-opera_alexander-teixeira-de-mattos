@@ -16,21 +16,19 @@
  * Letters.
  */
 [epub|type~="z3998:salutation"]{
-	display: block;
 	font-variant: small-caps;
 	margin-bottom: .25em;
 	text-indent: 0;
 }
 
-[epub|type~="z3998:valediction"]{
-	margin-right: 2em;
+[epub|type~="z3998:letter"] footer{
+	margin-right: 1.5em;
 	margin-top: .25em;
 	page-break-inside: avoid;
 	text-align: right;
 }
 
-span[epub|type~="z3998:signature"]{
-	display: block;
+[epub|type~="z3998:signature"]{
 	font-variant: small-caps;
 }
 
@@ -81,7 +79,8 @@ table td{
  * Chapter-Specific
  */
 /* Prologue: Signature line. */
-footer{
+#prologue > footer{
+	margin-right: 1.5em;
 	margin-top: 1em;
 	text-align: right;
 }
