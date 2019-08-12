@@ -53,10 +53,12 @@
 		<meta property="term" refines="#subject-7">Unknown</meta>
 		<meta property="se:subject">Fiction</meta>
 		<meta property="se:subject">Mystery</meta>
-		<dc:description id="description">DESCRIPTION</dc:description>
-		<meta id="long-description" property="se:long-description" refines="#description"><![CDATA[
-			LONG_DESCRIPTION
-		]]></meta>
+		<dc:description id="description">A mysterious presence terrorizes the Paris Opera.</dc:description>
+		<meta id="long-description" property="se:long-description" refines="#description">
+			&lt;p&gt;“When I die and am in Heaven,” Christine Daaé’s father said, “I will send the Angel of Music to you.” It is with these words still in her ears years later that Christine accepts the disembodied voice that speaks to her to claim that divine title and give her singing lessons within her dressing room at the Paris Opera as the fulfillment of her beloved father’s promise. And when those lessons lead her to a performance that astonishes the whole city, who could doubt but that the Angel had indeed come?&lt;/p&gt;
+			&lt;p&gt;Yet there is another, more sinister presence stalking about the Opéra Garnier: the Opera Ghost. A creature who not only makes inconvenient demands⁠—such as the exclusive use of Box Five at every performance, as well as a sizable retainer paid monthly—⁠but who also hangs a man for wandering into the wrong part of the Opera’s cavernous cellars, and sends a chandelier plunging down onto the heads of a packed house when his demands are not met.&lt;/p&gt;
+			&lt;p&gt;But is the Opera truly host to so many supernatural phenomena, or could it be that the Angel and the Opera Ghost are in fact one and the same? And could it be also that he is far less angel than demon? And if so, will Christine realize her peril before it is too late?&lt;/p&gt;
+		</meta>
 		<dc:language>en-US</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/175</dc:source>
 		<dc:source>https://archive.org/details/phantomofopera00lero</dc:source>
@@ -83,10 +85,6 @@
 		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">COVER_ARTIST_WIKI_URL</meta>
 		<meta property="se:url.authority.nacoaf" refines="#artist">COVER_ARTIST_NACOAF_URL</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
-		<dc:contributor id="transcriber-1">TRANSCRIBER</dc:contributor>
-		<meta property="file-as" refines="#transcriber-1">TRANSCRIBER_SORT</meta>
-		<meta property="se:url.homepage" refines="#transcriber-1">TRANSCRIBER_URL</meta>
-		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
 		<dc:contributor id="producer-1">PRODUCER</dc:contributor>
 		<meta property="file-as" refines="#producer-1">PRODUCER_SORT</meta>
 		<meta property="se:url.homepage" refines="#producer-1">PRODUCER_URL</meta>
