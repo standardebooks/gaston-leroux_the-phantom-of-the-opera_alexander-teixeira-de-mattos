@@ -13,19 +13,22 @@
 }
 
 /*----------
+ * Footers.
+ */
+footer{
+	margin-top: 1em;
+	page-break-before: avoid;
+	page-break-inside: avoid;
+	text-align: right;
+}
+
+/*----------
  * Letters.
  */
 [epub|type~="z3998:salutation"]{
 	font-variant: small-caps;
-	margin-bottom: .25em;
+	page-break-after: avoid;
 	text-indent: 0;
-}
-
-[epub|type~="z3998:letter"] footer{
-	margin-right: 1.5em;
-	margin-top: .25em;
-	page-break-inside: avoid;
-	text-align: right;
 }
 
 [epub|type~="z3998:signature"]{
@@ -78,13 +81,6 @@ table td{
 /*----------
  * Chapter-Specific
  */
-/* Prologue: Signature line. */
-#prologue > footer{
-	margin-right: 1.5em;
-	margin-top: 1em;
-	text-align: right;
-}
-
 /* Chapter 5: Interview transcription. */
 #chapter-5 table tr td:first-child{
 	font-weight: bold;
