@@ -1,9 +1,7 @@
 @charset "utf-8";
 @namespace epub "http://www.idpf.org/2007/ops";
 
-/*----------
- * Bridgehead.
- */
+/* Bridgehead. */
 [epub|type~="bridgehead"]{
 	display: inline-block;
 	font-style: italic;
@@ -12,22 +10,18 @@
 	text-indent: 0;
 }
 
-/*----------
- * Footers.
- */
+/* Footers. */
 footer{
 	margin-top: 1em;
-	page-break-before: avoid;
-	page-break-inside: avoid;
 	text-align: right;
 }
 
-/*----------
- * Letters.
- */
+/* Letters. */
 [epub|type~="z3998:salutation"]{
 	font-variant: small-caps;
-	page-break-after: avoid;
+}
+
+[epub|type~="z3998:salutation"] + p{
 	text-indent: 0;
 }
 
@@ -35,9 +29,7 @@ footer{
 	font-variant: small-caps;
 }
 
-/*----------
- * Songs.
- */
+/* Songs. */
 [epub|type~="z3998:song"] p{
 	text-align: left;
 	text-indent: 0;
@@ -58,37 +50,23 @@ p span.i1{
 	text-indent: -1em;
 }
 
-/*----------
- * Subtitles.
- */
+/* Subtitles. */
 span[epub|type~="subtitle"]{
 	display: block;
 	font-weight: normal;
 }
 
-/*----------
- * Tables.
- */
-table{
-	border-collapse: separate;
-	border-spacing: 0 .25em;
-}
-
+/* Tables. */
 table td{
 	vertical-align: top;
 }
 
-/*----------
- * Chapter-Specific
- */
-/* Chapter 5: Interview transcription. */
-#chapter-5 table tr td:first-child{
+table td:first-child{
 	font-weight: bold;
 }
 
 /* Chapter 7: Newspaper headline. */
 #chapter-7 > blockquote:last-of-type{
-	text-indent: 0;
 	text-align: center;
 	font-variant: small-caps;
 }
