@@ -25,7 +25,7 @@
 		<meta property="schema:accessibilityFeature">structuralNavigation</meta>
 		<meta property="schema:accessibilityFeature">tableOfContents</meta>
 		<meta property="schema:accessibilityHazard">none</meta>
-		<meta property="schema:accessibilitySummary">This publication conforms to WCAG 2.0 Level AA.</meta>
+		<meta property="schema:accessibilitySummary">This publication conforms to WCAG 2.1 Level AA.</meta>
 		<link href="onix.xml" media-type="application/xml" properties="onix" rel="record"/>
 		<dc:title id="title">The Phantom of the Opera</dc:title>
 		<meta property="file-as" refines="#title">Phantom of the Opera, The</meta>
@@ -55,9 +55,9 @@
 		<meta property="se:subject">Mystery</meta>
 		<dc:description id="description">A mysterious presence terrorizes the Paris Opera.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			&lt;p&gt;“When I die and am in Heaven,” Christine Daaé’s father said, “I will send the Angel of Music to you.” It is with these words still in her ears years later that Christine accepts the disembodied voice that speaks to her to claim that divine title and give her singing lessons within her dressing room at the Paris Opera as the fulfillment of her beloved father’s promise. And when those lessons lead her to a performance that astonishes the whole city, who could doubt but that the Angel had indeed come?&lt;/p&gt;
+			&lt;p&gt;“When I die and am in Heaven,” Christine Daaé’s father said, “I will send the Angel of Music to you.” It is with these words still in her ears years later that Christine accepts the disembodied voice that speaks to her to claim that divine title, and to give her singing lessons within her dressing room at the Paris Opera, as the fulfillment of her beloved father’s promise. And when those lessons lead her to a performance that astonishes the whole city, who could doubt but that the Angel had indeed come?&lt;/p&gt;
 			&lt;p&gt;Yet there is another, more sinister presence stalking about the Opéra Garnier: the Opera Ghost. A creature who not only makes inconvenient demands⁠—such as the exclusive use of Box Five at every performance, as well as a sizable retainer paid monthly—⁠but who also hangs a man for wandering into the wrong part of the Opera’s cavernous cellars, and sends a chandelier plunging down onto the heads of a packed house when his demands are not met.&lt;/p&gt;
-			&lt;p&gt;But is the Opera truly host to so many supernatural phenomena, or could it be that the Angel and the Opera Ghost are in fact one and the same? And could it be also that he is far less angel than demon? And if so, will Christine realize her peril before it is too late?&lt;/p&gt;
+			&lt;p&gt;But is the Opéra truly host to so many supernatural phenomena, or could it be that the Angel and the Opera Ghost are in fact one and the same? And could it be also that he is far less angel than demon? And if so, will Christine realize her peril before it is too late?&lt;/p&gt;
 		</meta>
 		<dc:language>en-US</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/175</dc:source>
@@ -93,6 +93,10 @@
 		<meta property="role" refines="#producer-1" scheme="marc:relators">mrk</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">pfr</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">tyg</meta>
+		<dc:contributor id="producer-2">Alex Cabal</dc:contributor>
+		<meta property="file-as" refines="#producer-2">Cabal, Alex</meta>
+		<meta property="se:url.homepage" refines="#producer-2">https://alexcabal.com</meta>
+		<meta property="role" refines="#producer-2" scheme="marc:relators">pfr</meta>
 	</metadata>
 	<manifest>
 		<item href="toc.xhtml" id="toc.xhtml" media-type="application/xhtml+xml" properties="nav"/>
