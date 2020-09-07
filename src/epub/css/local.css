@@ -50,12 +50,6 @@ p span.i1{
 	text-indent: -1em;
 }
 
-/* Subtitles. */
-span[epub|type~="subtitle"]{
-	display: block;
-	font-weight: normal;
-}
-
 /* Tables. */
 table td{
 	vertical-align: top;
