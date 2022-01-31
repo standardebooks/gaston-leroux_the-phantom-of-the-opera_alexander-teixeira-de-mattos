@@ -61,6 +61,6 @@ table td:first-child{
 
 /* Chapter 7: Newspaper headline. */
 #chapter-7 > blockquote:last-of-type{
-	text-align: center;
 	font-variant: small-caps;
+	text-align: center;
 }
