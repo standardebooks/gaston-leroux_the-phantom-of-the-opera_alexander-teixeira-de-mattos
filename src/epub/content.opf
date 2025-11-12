@@ -71,15 +71,15 @@
 		<meta property="se:name.person.full-name" refines="#author">Gaston Louis Alfred Leroux</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Gaston_Leroux</meta>
 		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n50050425</meta>
-		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">ann</meta>
+		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
 		<dc:contributor id="translator">Alexander Teixeira de Mattos</dc:contributor>
 		<meta property="file-as" refines="#translator">Teixeira de Mattos, Alexander</meta>
 		<meta property="se:name.person.full-name" refines="#translator">Alexander Louis Teixeira de Mattos</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#translator">https://en.wikipedia.org/wiki/Alexander_Teixeira_de_Mattos</meta>
 		<meta property="se:url.authority.nacoaf" refines="#translator">http://id.loc.gov/authorities/names/n82132724</meta>
-		<meta property="role" refines="#translator" scheme="marc:relators">trl</meta>
 		<meta property="role" refines="#translator" scheme="marc:relators">ann</meta>
+		<meta property="role" refines="#translator" scheme="marc:relators">trl</meta>
 		<dc:contributor id="artist">Magnus Enckell</dc:contributor>
 		<meta property="file-as" refines="#artist">Enckell, Magnus</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/Magnus_Enckell</meta>
