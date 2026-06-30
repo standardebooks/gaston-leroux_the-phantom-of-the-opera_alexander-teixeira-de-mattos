@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
+<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0 rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">https://standardebooks.org/ebooks/gaston-leroux/the-phantom-of-the-opera/alexander-teixeira-de-mattos</dc:identifier>
 		<dc:date>2020-01-29T04:59:00Z</dc:date>
 		<meta property="dcterms:modified">2020-01-29T04:59:00Z</meta>
 		<dc:rights>The source text and artwork in this ebook are believed to be in the United States public domain; that is, they are believed to be free of copyright restrictions in the United States. They may still be copyrighted in other countries, so users located outside of the United States must check their local laws before using this ebook. The creators of, and contributors to, this ebook dedicate their contributions to the worldwide public domain via the terms in the [CC0 1.0 Universal Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/).</dc:rights>
+		<meta property="rdf:type">http://schema.org/Book</meta>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
-		<meta property="se:url.homepage" refines="#publisher">https://standardebooks.org/</meta>
+		<link href="https://standardebooks.org/" refines="#publisher" rel="schema:url"/>
 		<meta property="role" refines="#publisher" scheme="marc:relators">bkd</meta>
 		<meta property="role" refines="#publisher" scheme="marc:relators">mdc</meta>
 		<meta property="role" refines="#publisher" scheme="marc:relators">pbl</meta>
 		<dc:contributor id="type-designer">The League of Moveable Type</dc:contributor>
 		<meta property="file-as" refines="#type-designer">League of Moveable Type, The</meta>
-		<meta property="se:url.homepage" refines="#type-designer">https://www.theleagueofmoveabletype.com/</meta>
+		<link href="https://www.theleagueofmoveabletype.com/" refines="#type-designer" rel="schema:url"/>
 		<meta property="role" refines="#type-designer" scheme="marc:relators">tyd</meta>
 		<meta id="conformance-statement" property="dcterms:conformsTo">EPUB Accessibility 1.1 - WCAG 2.2 Level AA</meta>
 		<meta property="a11y:certifiedBy" refines="#conformance-statement">Standard Ebooks</meta>
@@ -51,8 +52,8 @@
 		<meta property="term" refines="#subject-6">Unknown</meta>
 		<meta property="authority" refines="#subject-7">LCSH</meta>
 		<meta property="term" refines="#subject-7">Unknown</meta>
-		<meta property="se:subject">Fiction</meta>
-		<meta property="se:subject">Mystery</meta>
+		<meta property="schema:genre">Fiction</meta>
+		<meta property="schema:genre">Mystery</meta>
 		<dc:description id="description">A mysterious presence terrorizes the Paris Opera.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			&lt;p&gt;“When I die and am in Heaven,” Christine Daaé’s father said, “I will send the Angel of Music to you.” It is with these words still in her ears years later that Christine accepts the disembodied voice that speaks to her to claim that divine title, and to give her singing lessons within her dressing room at the Paris Opera, as the fulfillment of her beloved father’s promise. And when those lessons lead her to a performance that astonishes the whole city, who could doubt but that the Angel had indeed come?&lt;/p&gt;
@@ -62,28 +63,30 @@
 		<dc:language>en-US</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/175</dc:source>
 		<dc:source>https://archive.org/details/phantomofopera00lero</dc:source>
-		<meta property="se:word-count">82108</meta>
-		<meta property="se:reading-ease.flesch">73.27</meta>
-		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/The_Phantom_of_the_Opera</meta>
-		<meta property="se:url.vcs.github">https://github.com/standardebooks/gaston-leroux_the-phantom-of-the-opera_alexander-teixeira-de-mattos</meta>
+		<meta property="schema:wordCount">82108</meta>
+		<meta property="schema:educationalLevel">73.27</meta>
+		<link href="https://en.wikipedia.org/wiki/The_Phantom_of_the_Opera" rel="schema:sameAs"/>
+		<meta property="schema:workExample" id="vcs-repository">schema:workExample</meta>
+		<meta property="rdf:type" refines="#vcs-repository">http://schema.org/SoftwareSourceCode</meta>
+		<link href="https://github.com/standardebooks/gaston-leroux_the-phantom-of-the-opera_alexander-teixeira-de-mattos" refines="#vcs-repository" rel="schema:codeRepository"/>
 		<dc:creator id="author">Gaston Leroux</dc:creator>
 		<meta property="file-as" refines="#author">Leroux, Gaston</meta>
-		<meta property="se:name.person.full-name" refines="#author">Gaston Louis Alfred Leroux</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Gaston_Leroux</meta>
-		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n50050425</meta>
+		<meta property="schema:alternateName" refines="#author">Gaston Louis Alfred Leroux</meta>
+		<link href="https://en.wikipedia.org/wiki/Gaston_Leroux" refines="#author" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/n50050425.html" refines="#author" rel="schema:sameAs"/>
 		<meta property="role" refines="#author" scheme="marc:relators">ann</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
 		<dc:contributor id="translator">Alexander Teixeira de Mattos</dc:contributor>
 		<meta property="file-as" refines="#translator">Teixeira de Mattos, Alexander</meta>
-		<meta property="se:name.person.full-name" refines="#translator">Alexander Louis Teixeira de Mattos</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#translator">https://en.wikipedia.org/wiki/Alexander_Teixeira_de_Mattos</meta>
-		<meta property="se:url.authority.nacoaf" refines="#translator">http://id.loc.gov/authorities/names/n82132724</meta>
+		<meta property="schema:alternateName" refines="#translator">Alexander Louis Teixeira de Mattos</meta>
+		<link href="https://en.wikipedia.org/wiki/Alexander_Teixeira_de_Mattos" refines="#translator" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/n82132724.html" refines="#translator" rel="schema:sameAs"/>
 		<meta property="role" refines="#translator" scheme="marc:relators">ann</meta>
 		<meta property="role" refines="#translator" scheme="marc:relators">trl</meta>
 		<dc:contributor id="artist">Magnus Enckell</dc:contributor>
 		<meta property="file-as" refines="#artist">Enckell, Magnus</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/Magnus_Enckell</meta>
-		<meta property="se:url.authority.nacoaf" refines="#artist">http://id.loc.gov/authorities/names/n00089946</meta>
+		<link href="https://en.wikipedia.org/wiki/Magnus_Enckell" refines="#artist" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/n00089946.html" refines="#artist" rel="schema:sameAs"/>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
 		<dc:contributor id="producer-1">Jason Bell</dc:contributor>
 		<meta property="file-as" refines="#producer-1">Bell, Jason</meta>
@@ -95,7 +98,7 @@
 		<meta property="role" refines="#producer-1" scheme="marc:relators">tyg</meta>
 		<dc:contributor id="producer-2">Alex Cabal</dc:contributor>
 		<meta property="file-as" refines="#producer-2">Cabal, Alex</meta>
-		<meta property="se:url.homepage" refines="#producer-2">https://alexcabal.com/</meta>
+		<link href="https://alexcabal.com/" refines="#producer-2" rel="schema:url"/>
 		<meta property="role" refines="#producer-2" scheme="marc:relators">pfr</meta>
 	</metadata>
 	<manifest>
