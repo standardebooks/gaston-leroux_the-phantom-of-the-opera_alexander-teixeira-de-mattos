@@ -54,7 +54,7 @@
 		<meta property="term" refines="#subject-7">Unknown</meta>
 		<meta property="schema:genre">Fiction</meta>
 		<meta property="schema:genre">Mystery</meta>
-		<dc:abstract>A mysterious presence terrorizes the Paris Opera.</dc:abstract>
+		<meta property="schema:abstract">A mysterious presence terrorizes the Paris Opera.</meta>
 		<dc:description>
 			&lt;p&gt;“When I die and am in Heaven,” Christine Daaé’s father said, “I will send the Angel of Music to you.” It is with these words still in her ears years later that Christine accepts the disembodied voice that speaks to her to claim that divine title, and to give her singing lessons within her dressing room at the Paris Opera, as the fulfillment of her beloved father’s promise. And when those lessons lead her to a performance that astonishes the whole city, who could doubt but that the Angel had indeed come?&lt;/p&gt;
 			&lt;p&gt;Yet there is another, more sinister presence stalking about the Opéra Garnier: the Opera Ghost. A creature who not only makes inconvenient demands—such as the exclusive use of Box Five at every performance, as well as a sizable retainer paid monthly—but who also hangs a man for wandering into the wrong part of the Opera’s cavernous cellars, and sends a chandelier plunging down onto the heads of a packed house when his demands are not met.&lt;/p&gt;
