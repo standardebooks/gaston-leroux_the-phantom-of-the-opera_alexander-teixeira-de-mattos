@@ -30,7 +30,6 @@
 		<meta property="schema:accessibilitySummary">This publication conforms to WCAG 2.2 Level AA.</meta>
 		<dc:title id="title">The Phantom of the Opera</dc:title>
 		<meta property="file-as" refines="#title">Phantom of the Opera, The</meta>
-		<meta property="alternate-script" refines="#title" xml:lang="fr">Le Fantôme de l’Opéra</meta>
 		<dc:subject id="subject-1">Horror tales</dc:subject>
 		<dc:subject id="subject-2">Musical fiction</dc:subject>
 		<dc:subject id="subject-3">Opera--Fiction</dc:subject>
