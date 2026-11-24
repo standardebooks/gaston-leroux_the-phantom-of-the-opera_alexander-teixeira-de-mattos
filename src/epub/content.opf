@@ -62,7 +62,7 @@
 		<dc:language>en-US</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/175</dc:source>
 		<dc:source>https://archive.org/details/phantomofopera00lero</dc:source>
-		<meta property="schema:wordCount">82108</meta>
+		<meta property="schema:wordCount">82107</meta>
 		<meta property="schema:educationalLevel">73.27</meta>
 		<link href="https://en.wikipedia.org/wiki/The_Phantom_of_the_Opera_(novel)" rel="schema:sameAs"/>
 		<meta id="vcs-repository" property="schema:workExample">schema:workExample</meta>
